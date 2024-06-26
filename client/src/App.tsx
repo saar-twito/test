@@ -6,7 +6,7 @@ function App() {
 
   const fetchUsers = async (e: any) => {
     e.preventDefault();
-    const response = await fetch('https://test-ob3v.onrender.com/api/users');
+    const response = await fetch('https://test-server-x8s2.onrender.com/api/users');
     const body = await response.json();
     setUsers(body);
   }
